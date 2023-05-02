@@ -1,0 +1,66 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Authenticate",
+    "dateExported": "2023-05-02T12:38:42.696Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2b677ed3-a030-44e3-8aee-a57cbc9a3d6f",
+            "colId": "3c12e866-cba2-4aad-84c5-92f057724ba6",
+            "containerId": "",
+            "name": "localhost:4000/users/logout",
+            "url": "localhost:4000/users/logout",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-02T12:38:25.503Z",
+            "modified": "2023-05-02T12:38:25.503Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"wa\",\n  \"username\":\"wpr\",\n  \"firstName\":\"Joshua\",\n  \"lastName\":\"Gida\",\n  \"role\":\"Admin\",\n  \"email\":\"joshuagida1@gmail.com\",\n  \"password\":\"12345678\",\n  \"confirmPassword\":\"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b0fd677d-f97a-4b5c-87ae-bfda11a41f5c",
+            "colId": "3c12e866-cba2-4aad-84c5-92f057724ba6",
+            "containerId": "",
+            "name": "localhost:4000/users/authenticate",
+            "url": "localhost:4000/users/logout",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-02T12:38:33.626Z",
+            "modified": "2023-05-02T12:38:33.626Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"wa\",\n  \"username\":\"wpr\",\n  \"firstName\":\"Joshua\",\n  \"lastName\":\"Gida\",\n  \"role\":\"Admin\",\n  \"email\":\"joshuagida1@gmail.com\",\n  \"password\":\"12345678\",\n  \"confirmPassword\":\"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "65dcce50-6e0f-4443-a7cc-f197a364f73a",
+            "colId": "3c12e866-cba2-4aad-84c5-92f057724ba6",
+            "containerId": "",
+            "name": "localhost:4000/users/register",
+            "url": "localhost:4000/users/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-02T12:38:37.529Z",
+            "modified": "2023-05-02T12:38:37.529Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"wa\",\n  \"username\":\"wpr\",\n  \"firstName\":\"Joshua\",\n  \"lastName\":\"Gida\",\n  \"role\":\"Admin\",\n  \"email\":\"joshuagida1@gmail.com\",\n  \"password\":\"12345678\",\n  \"confirmPassword\":\"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
