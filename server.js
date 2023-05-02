@@ -13,7 +13,7 @@ app.use(cookieParser());
 // api routes
 app.use("/users", require("./users/users.controller"));
 
-// global error handler
+// global error handlerr
 app.use(errorHandler);
 
 // start server
